@@ -2963,4 +2963,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/libutils.so:system/lib64/vndk-sp-compat/libutils.so
 
 PRODUCT_PACKAGES += \
+    HotwordEnrollmentOKGoogleHI6403 \
+    HotwordEnrollmentXGoogleHI6403 \
     HwIms
