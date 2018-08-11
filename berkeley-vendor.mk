@@ -2960,7 +2960,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/liblzma.so:system/lib64/vndk-sp-compat/liblzma.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/libpng.so:system/lib64/vndk-sp-compat/libpng.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/libunwind.so:system/lib64/vndk-sp-compat/libunwind.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/libutils.so:system/lib64/vndk-sp-compat/libutils.so
+    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/libutils.so:system/lib64/vndk-sp-compat/libutils.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-27/libeffectsconfig.so:system/lib64/vndk-27/libeffectsconfig.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-27/libicui18n.so:system/lib64/vndk-27/libicui18n.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-27/libicuuc.so:system/lib64/vndk-27/libicuuc.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-27/libneuralnetworks.so:system/lib64/vndk-27/libneuralnetworks.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-27/libwifi-system.so:system/lib64/vndk-27/libwifi-system.so
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHI6403 \
