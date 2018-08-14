@@ -2692,6 +2692,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/android.hidl.token@1.0-utils.so:system/lib/vndk-26/android.hidl.token@1.0-utils.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/android.hidl.token@1.0.so:system/lib/vndk-26/android.hidl.token@1.0.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/android.system.wifi.keystore@1.0.so:system/lib/vndk-26/android.system.wifi.keystore@1.0.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libEGL.so:system/lib/vndk-26/libEGL.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libaudioclient.so:system/lib/vndk-26/libaudioclient.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libaudiomanager.so:system/lib/vndk-26/libaudiomanager.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libaudioroute.so:system/lib/vndk-26/libaudioroute.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libaudioutils.so:system/lib/vndk-26/libaudioutils.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libavservices_minijail.so:system/lib/vndk-26/libavservices_minijail.so \
@@ -2706,17 +2709,27 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libexpat.so:system/lib/vndk-26/libexpat.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libfmq.so:system/lib/vndk-26/libfmq.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libgatekeeper.so:system/lib/vndk-26/libgatekeeper.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libgui.so:system/lib/vndk-26/libgui.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libhardware_legacy.so:system/lib/vndk-26/libhardware_legacy.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libicui18n.so:system/lib/vndk-26/libicui18n.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libicuuc.so:system/lib/vndk-26/libicuuc.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libjpeg.so:system/lib/vndk-26/libjpeg.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libkeymaster1.so:system/lib/vndk-26/libkeymaster1.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libkeymaster_messages.so:system/lib/vndk-26/libkeymaster_messages.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libldacBT_abr.so:system/lib/vndk-26/libldacBT_abr.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libldacBT_enc.so:system/lib/vndk-26/libldacBT_enc.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/liblz4.so:system/lib/vndk-26/liblz4.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libmedia.so:system/lib/vndk-26/libmedia.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libmedia_helper.so:system/lib/vndk-26/libmedia_helper.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libmediacodecservice.so:system/lib/vndk-26/libmediacodecservice.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libmediadrm.so:system/lib/vndk-26/libmediadrm.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libmediametrics.so:system/lib/vndk-26/libmediametrics.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libmemtrack.so:system/lib/vndk-26/libmemtrack.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libminijail.so:system/lib/vndk-26/libminijail.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libnativebridge.so:system/lib/vndk-26/libnativebridge.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libnativehelper.so:system/lib/vndk-26/libnativehelper.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libnativeloader.so:system/lib/vndk-26/libnativeloader.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-26/libnativewindow.so:system/lib/vndk-26/libnativewindow.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libnetutils.so:system/lib/vndk-26/libnetutils.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libnl.so:system/lib/vndk-26/libnl.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-26/libopus.so:system/lib/vndk-26/libopus.so \
@@ -2785,7 +2798,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libbase.so:system/lib/vndk-sp-26/libbase.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libbcinfo.so:system/lib/vndk-sp-26/libbcinfo.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libblas.so:system/lib/vndk-sp-26/libblas.so \
-    vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libc++.so:system/lib/vndk-sp-26/libc++.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libcompiler_rt.so:system/lib/vndk-sp-26/libcompiler_rt.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libcutils.so:system/lib/vndk-sp-26/libcutils.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libft2.so:system/lib/vndk-sp-26/libft2.so \
@@ -2852,6 +2864,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/android.hidl.token@1.0-utils.so:system/lib64/vndk-26/android.hidl.token@1.0-utils.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/android.hidl.token@1.0.so:system/lib64/vndk-26/android.hidl.token@1.0.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/android.system.wifi.keystore@1.0.so:system/lib64/vndk-26/android.system.wifi.keystore@1.0.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libEGL.so:system/lib64/vndk-26/libEGL.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libaudioclient.so:system/lib64/vndk-26/libaudioclient.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libaudiomanager.so:system/lib64/vndk-26/libaudiomanager.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libaudioroute.so:system/lib64/vndk-26/libaudioroute.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libaudioutils.so:system/lib64/vndk-26/libaudioutils.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libavservices_minijail.so:system/lib64/vndk-26/libavservices_minijail.so \
@@ -2863,22 +2878,34 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libcurl.so:system/lib64/vndk-26/libcurl.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libdiskconfig.so:system/lib64/vndk-26/libdiskconfig.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libdumpstateutil.so:system/lib64/vndk-26/libdumpstateutil.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libeffectsconfig.so:system/lib64/vndk-26/libeffectsconfig.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libevent.so:system/lib64/vndk-26/libevent.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libexif.so:system/lib64/vndk-26/libexif.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libexpat.so:system/lib64/vndk-26/libexpat.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libfmq.so:system/lib64/vndk-26/libfmq.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libgatekeeper.so:system/lib64/vndk-26/libgatekeeper.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libgui.so:system/lib64/vndk-26/libgui.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libhardware_legacy.so:system/lib64/vndk-26/libhardware_legacy.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libicui18n.so:system/lib64/vndk-26/libicui18n.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libicuuc.so:system/lib64/vndk-26/libicuuc.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libjpeg.so:system/lib64/vndk-26/libjpeg.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libkeymaster1.so:system/lib64/vndk-26/libkeymaster1.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libkeymaster_messages.so:system/lib64/vndk-26/libkeymaster_messages.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libldacBT_abr.so:system/lib64/vndk-26/libldacBT_abr.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libldacBT_enc.so:system/lib64/vndk-26/libldacBT_enc.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/liblz4.so:system/lib64/vndk-26/liblz4.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libmedia.so:system/lib64/vndk-26/libmedia.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libmedia_helper.so:system/lib64/vndk-26/libmedia_helper.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libmediadrm.so:system/lib64/vndk-26/libmediadrm.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libmediametrics.so:system/lib64/vndk-26/libmediametrics.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libmemtrack.so:system/lib64/vndk-26/libmemtrack.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libminijail.so:system/lib64/vndk-26/libminijail.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libnativebridge.so:system/lib64/vndk-26/libnativebridge.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libnativehelper.so:system/lib64/vndk-26/libnativehelper.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libnativeloader.so:system/lib64/vndk-26/libnativeloader.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libnativewindow.so:system/lib64/vndk-26/libnativewindow.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libnetutils.so:system/lib64/vndk-26/libnetutils.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libneuralnetworks.so:system/lib64/vndk-26/libneuralnetworks.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libnl.so:system/lib64/vndk-26/libnl.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libopus.so:system/lib64/vndk-26/libopus.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/libpagemap.so:system/lib64/vndk-26/libpagemap.so \
@@ -2947,7 +2974,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libbase.so:system/lib64/vndk-sp-26/libbase.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libbcinfo.so:system/lib64/vndk-sp-26/libbcinfo.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libblas.so:system/lib64/vndk-sp-26/libblas.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libc++.so:system/lib64/vndk-sp-26/libc++.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libcompiler_rt.so:system/lib64/vndk-sp-26/libcompiler_rt.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libcutils.so:system/lib64/vndk-sp-26/libcutils.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libft2.so:system/lib64/vndk-sp-26/libft2.so \
@@ -2960,16 +2986,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/liblzma.so:system/lib64/vndk-sp-26/liblzma.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libpng.so:system/lib64/vndk-sp-26/libpng.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libunwind.so:system/lib64/vndk-sp-26/libunwind.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libutils.so:system/lib64/vndk-sp-26/libutils.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libeffectsconfig.so:system/lib64/vndk-26/libeffectsconfig.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libicui18n.so:system/lib64/vndk-26/libicui18n.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libicuuc.so:system/lib64/vndk-26/libicuuc.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-26/libneuralnetworks.so:system/lib64/vndk-26/libneuralnetworks.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-27/libeffectsconfig.so:system/lib64/vndk-27/libeffectsconfig.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-27/libicui18n.so:system/lib64/vndk-27/libicui18n.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-27/libicuuc.so:system/lib64/vndk-27/libicuuc.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-27/libneuralnetworks.so:system/lib64/vndk-27/libneuralnetworks.so \
-    vendor/huawei/berkeley/proprietary/lib64/libwifi-system.so:system/lib64/libwifi-system.so
+    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libutils.so:system/lib64/vndk-sp-26/libutils.so
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHI6403 \
