@@ -2811,6 +2811,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libpng.so:system/lib/vndk-sp-26/libpng.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libunwind.so:system/lib/vndk-sp-26/libunwind.so \
     vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/libutils.so:system/lib/vndk-sp-26/libutils.so \
+    vendor/huawei/berkeley/proprietary/lib/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so:system/lib/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/android.frameworks.displayservice@1.0.so:system/lib64/vndk-26/android.frameworks.displayservice@1.0.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/android.frameworks.schedulerservice@1.0.so:system/lib64/vndk-26/android.frameworks.schedulerservice@1.0.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-26/android.frameworks.sensorservice@1.0.so:system/lib64/vndk-26/android.frameworks.sensorservice@1.0.so \
@@ -2986,7 +2987,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/liblzma.so:system/lib64/vndk-sp-26/liblzma.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libpng.so:system/lib64/vndk-sp-26/libpng.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libunwind.so:system/lib64/vndk-sp-26/libunwind.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libutils.so:system/lib64/vndk-sp-26/libutils.so
+    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/libutils.so:system/lib64/vndk-sp-26/libutils.so \
+    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so:system/lib64/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHI6403 \
